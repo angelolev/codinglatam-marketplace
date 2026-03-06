@@ -32,6 +32,20 @@ Se activa cuando compartes una URL de Figma. Ejemplos:
 
 Requiere un MCP de Figma configurado. Ver instrucciones en la skill.
 
+### Skill: dependency-docs
+
+Analiza y documenta las dependencias del proyecto con un reporte categorizado.
+
+1. **Detecta** el ecosistema y package manager
+2. **Clasifica** cada dependencia por categoria (framework, UI, testing, etc.)
+3. **Documenta** version, tipo y proposito especifico en el proyecto
+4. **Analiza** (opcional) redundancias, paquetes desactualizados y vulnerabilidades
+
+Se activa cuando pides documentar dependencias. Ejemplos:
+- "Documenta las dependencias de este proyecto"
+- "Que librerias usa este proyecto?"
+- "Hazme un reporte de dependencias"
+
 ### Agent: refactor-coach
 
 Analiza codigo buscando oportunidades de refactoring y las aplica una por una.
