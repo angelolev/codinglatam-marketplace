@@ -1,0 +1,8 @@
+{
+  "name": "codinglatam-toolkit",
+  "version": "1.0.0",
+  "description": "Plugin con skills de explicacion de codigo y figma-to-ui, agente de refactoring y MCP chrome-devtools",
+  "author": {
+    "name": "CodingLatam"
+  }
+}

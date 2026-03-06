@@ -1,0 +1,10 @@
+{
+  "chrome-devtools": {
+    "command": "npx",
+    "args": ["chrome-devtools-mcp@latest"]
+  },
+  "figma": {
+    "command": "npx",
+    "args": ["-y", "figma-developer-mcp", "--figma-api-key=${FIGMA_API_KEY}"]
+  }
+}
