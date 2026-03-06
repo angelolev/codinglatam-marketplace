@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "codinglatam-marketplace",
+  "description": "Marketplace interno del equipo CodingLatam con herramientas de desarrollo",
+  "owner": {
+    "name": "CodingLatam",
+    "email": "team@codinglatam.dev"
+  },
+  "plugins": [
+    {
+      "name": "codinglatam-toolkit",
+      "description": "Plugin con skill de explicacion de codigo, agente de refactoring y MCP chrome-devtools",
+      "author": {
+        "name": "CodingLatam"
+      },
+      "source": "./plugins/codinglatam-toolkit",
+      "category": "development"
+    }
+  ]
+}
